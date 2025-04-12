@@ -21,7 +21,21 @@ npm i
 ### Setup .env file
 
 ```js
-NEXT_PUBLIC_API_URL=
+NEXT_PUBLIC_API_URL=http://localhost:3000
+```
+
+### Install the following dependencies
+
+```shell
+npm i clsx tailwind-merge
+```
+
+```shell
+npm i lucide-react
+```
+
+```shell
+npm i @headlessui/react
 ```
 
 ### Start the app
