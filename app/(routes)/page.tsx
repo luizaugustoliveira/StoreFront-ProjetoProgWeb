@@ -12,7 +12,7 @@ const HomePage = async () => {
   try {
     const [products, billboard] = await Promise.all([
       getProducts({ storeId, isFeatured: true }),
-      getBillboard(storeId, "651de0afa1d6c343ce68fa8b"),
+      getBillboard(storeId, "a3ea6f9e-2077-4897-b668-5d5b5405d2f2"),
     ]);
 
     return (

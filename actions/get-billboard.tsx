@@ -10,7 +10,7 @@ const getBillboard = async (
     const res = await fetch(
       `${BASE_URL}/api/${storeId}/billboards/${billboardId}`,
       {
-        next: { revalidate: 0 }, // Evita cache se necessário
+        next: { revalidate: 0 },
       }
     );
 
